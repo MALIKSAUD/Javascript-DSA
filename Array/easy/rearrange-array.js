@@ -1,3 +1,8 @@
+// Rearrange array such that even positioned are greater than odd
+// Examples :  
+// Input : A[] = {1, 2, 2, 1}
+// Output :  1 2 1 2
+
 function rearrangeArraySuchThatEvenPositionedAreGreaterThanOdd(arr) {
 for (let index = 0; index < arr.length; index++) {
     if (index % 2 === 0 && arr[index] > arr[index +1]) {
